@@ -65,16 +65,16 @@ nav .nav-close-btn {
         opacity: 1;
         position: absolute;
         top: 2rem;
-        /* Adjust this value according to your design */
+      
         right: 2rem;
-        /* Adjust this value according to your design */
+       
     }
 
     header nav {
         position: fixed;
         top: 0;
         left: 0;
-        height: 100%;
+        height: 60%;
         width: 100%;
         display: flex;
         flex-direction: column;
