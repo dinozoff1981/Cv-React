@@ -1,0 +1,22 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 50px;
+}
+
+.git-card {
+    margin-top: 50px;
+}
+
+.repo-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.repo-card {
+    flex: 1 0 200px;
+   
+}

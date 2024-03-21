@@ -1,0 +1,143 @@
+{
+    "name":"Tensae G. Seifu",
+    "description":"Full-Satack .Net Developer",
+    "contactInfo": {
+        "title": "Contact Info",
+        "details": [
+            {
+                "phoneNumber": "+46764525651"
+            },
+            {
+                "email": "tensaeg@yahoo.com"
+            },
+            {
+                "location": "Stockholm, Sweden"
+            }
+        ]
+    },
+    "education": {
+        "title": "Education",
+        "details": [
+            {
+                "id":1,
+                "year": "2022",
+                "degree": "C# Programming Certificate",
+                "institution": "ASTAR Adult Education",
+                "location": "Stockholm, Sweden"
+            },
+            {
+                "id":2,
+                "year": "2000 - 2005",
+                "degree": "Bachelor Degree in Computer Science",
+                "institution": "HilCoE University",
+                "location": "Addis Ababa, Ethiopia"
+            },
+            {
+                "id":3,
+                "year": "1996 - 1999",
+                "degree": "High School Diploma",
+                "institution": "N.C.C.S",
+                "location": "Addis Ababa, Ethiopia"
+            }
+        ]
+    },
+    "languages": {
+        "title": "Languages",
+        "details": [
+            {
+                "id":1,
+                "language": "Swedish",
+                "level": "70%"
+            },
+            {
+                "id":2,
+                "language": "English",
+                "level": "90%"
+            },
+            {
+                "id":3,
+                "language": "Amharic",
+                "level": "100%"
+            }
+        ]
+    },
+    "profile": {
+        
+        "title": "Profile",
+        "description": "I have broad experience across various sectors and work environments. Throughout my career, I've been a good leader and team player. I have a strong ambition to continually learn and achieve maximum performance to deliver the high quality expected of me."
+    },
+    "experience": {
+        "title": "Experience",
+        "details": [
+            {
+                "id":1,
+                "year": "2023 - Present",
+                "company": "Länsförsäkringar AB",
+                "position": "Junior .Net Developer",
+                "description": "Working on web services development. A cross-platform environment, which integrates all the flow stretching from frontend to backend."
+            },
+            {
+                "id":2,
+                "year": "2018 - 2019",
+                "company": "Global Fastighets Service AB",
+                "position": "Team Leader",
+                "description": "I was responsible for ensuring the quality of work, managing workers, communicating with customers, and preparing reports."
+            },
+            {
+                "id":3,
+                "year": "2016 - 2018",
+                "company": "Munch German Bakery",
+                "position": "Operations Manager",
+                "description": "Responsible for the company's overall daily operations. Managing all employees, monitoring service quality, and customer experience. Designing strategies and implementation directives regarding the company's business operations."
+            },
+            {
+                "id":4,
+                "year": "2008 - 2012",
+                "company": "Svensk Depå Service AB",
+                "position": "Team Leader",
+                "description": "Customer and daily work follow-up. Recruiting new employees and training work routines. Conducting material purchases required for the work and keeping track of inventory. Conducting customer feedback and implementing improvement measures."
+            },
+            {
+                "id":5,
+                "year": "2005 - 2007",
+                "company": "E.T.G.M.A",
+                "position": "Secretary General",
+                "description": "Responsible for production and export flow, international market assessment, collaboration with non-governmental organizations and local authorities regarding business relations between producers and consumers. Allocating incoming orders to respective manufacturers based on their capacity. Preparing and presenting quarterly performance reports to the board."
+            }
+        ]
+    },
+    "professionalSkills": {
+        "title": "Professional Skills",
+        "details": [
+            {
+                "skill": "HTML",
+                "level": "80%"
+            },
+            {
+                "skill": "CSS",
+                "level": "80%"
+            },
+            {
+                "skill": "JavaScript",
+                "level": "70%"
+            },
+            {
+                "skill": ".Net / C#",
+                "level": "90%"
+            },
+            {
+                "skill": "SQL",
+                "level": "90%"
+            }
+        ]
+    },
+    "interests": {
+        "title": "Interests",
+        "details": [
+
+            {"id":1,"interest":"Reading"},
+            {"id":2,"interest":"Gaming"},{"id":3,"interest":"Cooking"},{"id":4,"interest":"Singing"}
+           
+        ]
+    }
+}
