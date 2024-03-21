@@ -1,13 +1,11 @@
 .center-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 100vh;
     padding: 0 50px;
-}
-
-.git-card {
-    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .repo-flex-container {
@@ -17,6 +15,43 @@
 }
 
 .repo-card {
-    flex: 1 0 200px;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.Title {
+    color: brown;
+    text-align: center;
+}
+
+.progress-bar-custom {
+    width: 50%;
+    height: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .center-container {
+        padding: 0 30px;
+        margin-bottom: 30px;
+    
+    }
+    
+    .repo-flex-container {
+        justify-content: center;
+    }
+
+    .repo-card {
+        flex: 0 0 auto;
+        width: 100px; /* Adjust width as needed */
+    }
 }
