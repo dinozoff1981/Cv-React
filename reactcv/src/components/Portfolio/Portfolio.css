@@ -1,9 +1,10 @@
+
 .center-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     padding: 0 50px;
     margin-bottom: 60px;
 }
@@ -18,7 +19,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30%;
 }
 
 .progress-container {
@@ -29,9 +29,10 @@
     width: 100%;
 }
 
-.Title {
+.title {
     color: brown;
     text-align: center;
+    font-size: 18px;
 }
 
 .progress-bar-custom {
@@ -41,17 +42,20 @@
 
 @media screen and (max-width: 1000px) {
     .center-container {
-        padding: 0 30px;
-        margin-bottom: 30px;
-    
+        padding: 0 25px; 
+        margin-bottom: 30px; 
+   
     }
-    
+
     .repo-flex-container {
-        justify-content: center;
+ 
+        gap: 10px; 
+        margin-top:
     }
 
     .repo-card {
-        flex: 0 0 auto;
-        width: 100px; /* Adjust width as needed */
+       
+        width: 50%; 
+        height: 50%; 
     }
 }

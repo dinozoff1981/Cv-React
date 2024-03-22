@@ -63,12 +63,12 @@ function About() {
 
       <div className="right_Side">
         <div className="about">
-          <h2 className="title2">{Resumes.profile.title}</h2>
+          <h2 className="title">{Resumes.profile.title}</h2>
           <p>{Resumes.profile.description}</p>
         </div>
 
         <div className="about">
-          <h2 className="title2">{Resumes.experience.title}</h2>
+          <h2 className="title">{Resumes.experience.title}</h2>
           {Resumes.experience.details.map(detail => (
             <div className="box" key={detail.id}>
               <div className="year_company">

@@ -16,7 +16,7 @@
 .container-about .left_Side {
   position: relative;
   background-color: #003147;
-  padding: 40px;
+  padding: 70px;
 }
 
 .profileText {
@@ -52,7 +52,7 @@
 }
 
 .profileText h2 {
-  color: #fff;
+  color: #f18546;
   font-size: 1.5em;
   margin-top: 20px;
   text-transform: uppercase;
@@ -68,6 +68,7 @@
 
 .contactInfo {
   padding-top: 40px;
+  font-size: 14px;
 }
 
 .title {
@@ -105,11 +106,15 @@
 
 .contactInfo.education li {
   margin-bottom: 15px;
+  font-size: 13px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .contactInfo.education h5 {
   color: #03a9f4;
   font-weight: 500;
+  font-size: 14px;
 }
 
 .contactInfo.education h4:nth-child(2) {
@@ -172,12 +177,16 @@ p {
 
 .about .box .year_company {
   min-width: 150px;
+ 
 }
 
 .about .box .year_company h5 {
   text-transform: uppercase;
-  color: #848c90;
+  color: #05405e;
   font-weight: 600;
+  font-size:14px;
+  padding-right: 20px;
+  text-align: center;
 }
 
 .about .box .text h4 {
@@ -234,7 +243,7 @@ p {
 
 @media (max-width: 1000px) {
   .container-about {
-    margin: 10px;
+    margin: 10px auto;
     grid-template-columns: repeat(1, 1fr);
   }
 
